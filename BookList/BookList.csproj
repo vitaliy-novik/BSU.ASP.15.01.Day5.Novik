@@ -48,9 +48,9 @@
     <Compile Include="IBookListService.cs" />
     <Compile Include="IBookListSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortByAuthor.cs" />
-    <Compile Include="SortByPublisher.cs" />
-    <Compile Include="SortByTitle.cs" />
+    <Compile Include="Comparers\SortByAuthor.cs" />
+    <Compile Include="Comparers\SortByPublisher.cs" />
+    <Compile Include="Comparers\SortByTitle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="NLog.config">
