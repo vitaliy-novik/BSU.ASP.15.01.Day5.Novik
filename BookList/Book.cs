@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookList
 {
+    [Serializable]
     public class Book : IEquatable<Book>, IComparable<Book>
     {
         public string Author { get; set; }
